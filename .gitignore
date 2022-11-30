@@ -1,0 +1,34 @@
+src/*.exe
+src/recylecoin
+src/recylecoind
+src/test_recylecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.recylecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+recylecoin-qt
+Recylecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+recylecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
